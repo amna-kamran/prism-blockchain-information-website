@@ -34,10 +34,10 @@ const Main = () => {
       <div className={styles.details}>
         <div className={styles.box}>
           <div className={styles.line}>
-            <div className={styles.info}>BTC/USDT</div>
+            <div className={styles.info}>PRISM/USDT</div>
             <div className={cn("category-green", styles.category)}>10x</div>
           </div>
-          <div className={styles.content}>Bitcoin</div>
+          <div className={styles.content}>Prism</div>
         </div>
         <div className={styles.box}>
           <div className={styles.price}>36,641.20</div>

@@ -19,7 +19,7 @@ const ApiKeysConfirm = ({ goNext }) => {
       </div>
       <div className={styles.email}>
         <Icon name="email" size="24" />
-        schinner@ui8.net
+        amna@prism.net
       </div>
       <div className={styles.btns}>
         <button className={cn("button-stroke", styles.button)} onClick={goNext}>

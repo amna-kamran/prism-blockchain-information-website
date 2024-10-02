@@ -199,7 +199,7 @@ const Trades = () => {
       <div className={styles.table}>
         <div className={styles.row}>
           <div className={styles.col}>Price (USDT)</div>
-          <div className={styles.col}>Amount (BTC)</div>
+          <div className={styles.col}>Amount (PRISM)</div>
           <div className={styles.col}>Time</div>
         </div>
         {items.map((x, index) => (

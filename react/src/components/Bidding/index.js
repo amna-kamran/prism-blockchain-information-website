@@ -11,7 +11,7 @@ const Bidding = ({ title, items, children, activeIndex }) => {
         <div className={cn("container", styles.container)}>
           <h2 className={cn("h2", styles.title)}>{title}</h2>
           <div className={styles.info}>
-            How to buy crypto on Bitcloud{" "}
+            How to buy crypto on Prism{" "}
             <Link className={styles.link} to="/learn-crypto">
               Learn now <Icon name="arrow-right" size="20" />
             </Link>

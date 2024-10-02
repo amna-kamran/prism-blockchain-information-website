@@ -8,7 +8,7 @@ import Card from "./Card";
 
 const items = [
   {
-    title: "Buy & Sell Crypto",
+    title: "Your Transactions, Your Truth",
     content:
       "We realize ideas from simple to complex, everything becomes easy to use and reach the most potential customers.",
     button: "Buy crypto",

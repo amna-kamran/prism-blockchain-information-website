@@ -13,8 +13,8 @@ const Login = ({ className, content, linkText, linkUrl, children }) => {
         }}
       >
         <Link className={styles.logo} to="/">
-          <img src="/images/logo-light.svg" alt="BitCloud" />
-          <img src="/images/logo-dark.svg" alt="BitCloud" />
+          <img src="/images/prism-logo-dark.svg" alt="Prism" />
+          <img src="/images/prism-logo.svg" alt="Prism" />
         </Link>
       </div>
       <div className={styles.col}>

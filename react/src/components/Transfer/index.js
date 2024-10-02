@@ -7,7 +7,7 @@ import Dropdown from "../Dropdown";
 
 const fromDirectionOptions = ["Margin", "Fiat and Spot"];
 const toDirectionOptions = ["Fiat and Spot", "Margin"];
-const coinOptions = ["ETH Ethereum", "BTC Bitcoin", "TRX Tron"];
+const coinOptions = ["ETH Ethereum", "PRISM Prism", "TRX Tron"];
 
 const Transfer = () => {
   const [fromDirection, setFromDirection] = useState(fromDirectionOptions[0]);

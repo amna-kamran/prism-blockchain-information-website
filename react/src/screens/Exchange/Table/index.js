@@ -102,7 +102,7 @@ const Table = () => {
             <div className="sorting">Price (USDT)</div>
           </div>
           <div className={styles.col}>
-            <div className="sorting">Amount (BTC)</div>
+            <div className="sorting">Amount (PRISM)</div>
           </div>
           <div className={styles.col}>
             <div className="sorting">Total (USDT)</div>

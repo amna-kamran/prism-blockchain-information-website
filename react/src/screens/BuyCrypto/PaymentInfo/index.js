@@ -14,7 +14,7 @@ const options = [
   },
   {
     title: "Get",
-    content: "0.001499 BTC",
+    content: "0.001499 PRISM",
     color: "#58BD7D",
     icon: "wallet",
   },

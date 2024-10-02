@@ -71,8 +71,8 @@ const ProfileInfo = () => {
     <Profile title="Profile info" breadcrumbs={breadcrumbs}>
       <div className={styles.head}>
         <div className={styles.details}>
-          <div className={styles.user}>Breanne Schinner</div>
-          <div className={styles.email}>schinner@ui8.net</div>
+          <div className={styles.user}>Amna Kamran</div>
+          <div className={styles.email}>amna@prism.net</div>
           <div className={styles.level}>Level 2 verified</div>
         </div>
         <Dropdown

@@ -9,17 +9,9 @@ const language = [
     title: "English",
     flag: "🇺🇸",
   },
-  {
-    title: "Vietnamese",
-    flag: "🇻🇳",
-  },
-  {
-    title: "Russia",
-    flag: "🇷🇺",
-  },
 ];
 
-const currency = ["USD", "RUB", "EUR", "JPY", "BTC"];
+const currency = ["USD", "JPY", "PRISM"];
 
 const Settings = ({ className }) => {
   const [visible, setVisible] = useState(false);

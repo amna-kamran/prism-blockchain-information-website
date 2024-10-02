@@ -10,7 +10,7 @@ const items = [
   {
     title: "Be Part of our Global Community",
     content:
-      "Let’s stay in touch. Join our communities to keep up with the BitCloud team and our traders from across the world.",
+      "Let’s stay in touch. Join our communities to keep up with the Prism team and our traders from across the world.",
     stage: "crypto news",
     image: "/images/content/news-pic-1.png",
     image2x: "/images/content/news-pic-1@2x.png",
@@ -19,7 +19,7 @@ const items = [
   {
     title: "Be Part of our Global Community",
     content:
-      "Let’s stay in touch. Join our communities to keep up with the BitCloud team and our traders from across the world.",
+      "Let’s stay in touch. Join our communities to keep up with the Prism team and our traders from across the world.",
     stage: "Join now",
     image: "/images/content/news-pic-1.png",
     image2x: "/images/content/news-pic-1@2x.png",
@@ -28,7 +28,7 @@ const items = [
   {
     title: "Be Part of our Global Community",
     content:
-      "Let’s stay in touch. Join our communities to keep up with the BitCloud team and our traders from across the world.",
+      "Let’s stay in touch. Join our communities to keep up with the Prism team and our traders from across the world.",
     stage: "crypto news",
     image: "/images/content/news-pic-1.png",
     image2x: "/images/content/news-pic-1@2x.png",
@@ -66,13 +66,13 @@ const News = ({ classSection }) => {
           <div className={styles.logo}>
             <Image
               className={styles.pic}
-              src="/images/logo-light.svg"
-              srcDark="/images/logo-dark.svg"
-              alt="BitCloud"
+              src="/images/prism-logo-dark.svg"
+              srcDark="/images/prism-logo.svg"
+              alt="Prism"
             />
           </div>
           <h2 className={cn("h2", styles.title)}>
-            Stay in the know on crypto with BitCloud
+            Stay in the know on crypto with Prism
           </h2>
           <div className={styles.info}>
             A creative agency that lead and inspire

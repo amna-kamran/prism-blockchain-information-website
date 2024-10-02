@@ -15,21 +15,7 @@ const navigation = [
     title: "Exchange",
     url: "/exchange",
   },
-  {
-    title: "Buy Crypto",
-    dropdown: [
-      {
-        title: "Credit card",
-        icon: "user",
-        url: "/buy-crypto",
-      },
-      {
-        title: "Bank deposit",
-        icon: "image",
-        url: "/deposit-fiat",
-      },
-    ],
-  },
+
   {
     title: "Market",
     url: "/market",
@@ -87,14 +73,7 @@ const Header = ({ headerWide }) => {
                 )
               )}
             </nav>
-            <NavLink
-              className={cn("button-stroke", styles.button)}
-              activeClassName={styles.active}
-              to="/wallet-overview"
-              onClick={() => setVisibleNav(false)}
-            >
-              Wallet
-            </NavLink>
+
             {/* <div className={styles.btns}>
               <Link
                 className={cn("button-small", styles.button)}

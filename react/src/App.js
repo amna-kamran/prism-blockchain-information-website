@@ -9,10 +9,6 @@ import Contact from "./screens/Contact";
 import Notifications from "./screens/Notifications";
 import Activity from "./screens/Activity";
 import Exchange from "./screens/Exchange";
-import WalletOverview from "./screens/WalletOverview";
-import WalletOverviewDetails from "./screens/WalletOverviewDetails";
-import WalletMargin from "./screens/WalletMargin";
-import FiatAndSpot from "./screens/FiatAndSpot";
 import DepositFiat from "./screens/DepositFiat";
 import BuyCrypto from "./screens/BuyCrypto";
 import SellCrypto from "./screens/SellCrypto";
@@ -95,38 +91,7 @@ function App() {
             </Page>
           }
         />
-        <Route
-          path="/wallet-overview"
-          element={
-            <Page headerWide footerHide>
-              <WalletOverview />
-            </Page>
-          }
-        />
-        <Route
-          path="/wallet-overview/:id"
-          element={
-            <Page headerWide footerHide>
-              <WalletOverviewDetails />
-            </Page>
-          }
-        />
-        <Route
-          path="/wallet-margin"
-          element={
-            <Page headerWide footerHide>
-              <WalletMargin />
-            </Page>
-          }
-        />
-        <Route
-          path="/fiat-and-spot"
-          element={
-            <Page headerWide footerHide>
-              <FiatAndSpot />
-            </Page>
-          }
-        />
+
         <Route
           path="/profile-info"
           element={

@@ -6,9 +6,9 @@ import Loader from "../Loader";
 
 const items = [
   {
-    title: "Learn about UI8 coin and earn an All-Access Pass",
+    title: "Learn about PRISM coin and earn an All-Access Pass",
     author: "Floyd Buckridge",
-    date: "Feb 03, 2021",
+    date: "Feb 03, 2024",
     category: "purple",
     categoryText: "learn & earn",
     image: "/images/content/lessons-pic-1.jpg",
@@ -19,7 +19,7 @@ const items = [
   {
     title: "Submit your watchlist and win USDT",
     author: "Floyd Buckridge",
-    date: "Feb 03, 2021",
+    date: "Feb 03, 2024",
     category: "green",
     categoryText: "weekly watchlist airdrop",
     image: "/images/content/lessons-pic-2.jpg",
@@ -30,7 +30,7 @@ const items = [
   {
     title: "Submit your watchlist and win USDT",
     author: "Floyd Buckridge",
-    date: "Feb 03, 2021",
+    date: "Feb 03, 2024",
     category: "blue",
     categoryText: "featured",
     image: "/images/content/lessons-pic-3.jpg",
@@ -39,9 +39,9 @@ const items = [
     url: "/learn-crypto",
   },
   {
-    title: "Learn about UI8 coin and earn an All-Access Pass",
+    title: "Learn about PRISM coin and earn an All-Access Pass",
     author: "Floyd Buckridge",
-    date: "Feb 03, 2021",
+    date: "Feb 03, 2024",
     category: "purple",
     categoryText: "learn & earn",
     image: "/images/content/lessons-pic-1.jpg",

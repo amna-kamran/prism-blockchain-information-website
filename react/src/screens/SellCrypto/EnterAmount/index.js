@@ -31,7 +31,7 @@ const EnterAmount = ({ goNext, goBack }) => {
             onChange={(e) => setPrice(e.target.value)}
           />
         </div>
-        <div className={cn("h4", styles.sign)}>BTC</div>
+        <div className={cn("h4", styles.sign)}>PRISM</div>
       </div>
       <div className={styles.price}>
         You will get <span>56,000.460.548</span> USD

@@ -8,63 +8,57 @@ import Export from "../../components/Export";
 import Dropdown from "../../components/Dropdown";
 import Table from "./Table";
 
-const navigation = [
-  "All type",
-  "Withdrawals",
-  "Deposit",
-  "Transfer",
-  "Bank credit",
-];
+const navigation = ["All type", "Withdrawals", "Deposit", "Transfer"];
 
 const table = [
   {
     withdrew: true,
-    currency: "Bitcoin",
-    image: "/images/content/currency/bitcoin.svg",
-    amount: "1,641.20 BTC",
+    currency: "Prism",
+    image: "/images/logo.svg",
+    amount: "1,641.20 PRISM",
     address: "3DkQyAdif6kQLPMBu",
     transaction: "3DkQyAdif6kQLPMBu",
-    date: "2021-06-05 04:12:30",
+    date: "2024-07-05 04:12:30",
     url: "/buy-crypto",
   },
   {
     deposited: true,
-    currency: "Bitcoin",
-    image: "/images/content/currency/bitcoin.svg",
-    amount: "1,641.20 BTC",
+    currency: "Prism",
+    image: "/images/logo.svg",
+    amount: "1,641.20 PRISM",
     address: "3DkQyAdif6kQLPMBu",
     transaction: "3DkQyAdif6kQLPMBu",
-    date: "2021-06-05 04:12:30",
+    date: "2024-07-0504:12:30",
     url: "/buy-crypto",
   },
   {
     withdrew: true,
-    currency: "Bitcoin",
-    image: "/images/content/currency/bitcoin.svg",
-    amount: "1,641.20 BTC",
+    currency: "Prism",
+    image: "/images/logo.svg",
+    amount: "1,641.20 PRISM",
     address: "3DkQyAdif6kQLPMBu",
     transaction: "3DkQyAdif6kQLPMBu",
-    date: "2021-06-05 04:12:30",
+    date: "2024-07-05 04:12:30",
     url: "/buy-crypto",
   },
   {
     deposited: true,
-    currency: "Bitcoin",
-    image: "/images/content/currency/bitcoin.svg",
-    amount: "1,641.20 BTC",
+    currency: "Prism",
+    image: "/images/logo.svg",
+    amount: "1,641.20 PRISM",
     address: "3DkQyAdif6kQLPMBu",
     transaction: "3DkQyAdif6kQLPMBu",
-    date: "2021-06-05 04:12:30",
+    date: "2024-07-05 04:12:30",
     url: "/buy-crypto",
   },
   {
     deposited: true,
-    currency: "Bitcoin",
-    image: "/images/content/currency/bitcoin.svg",
-    amount: "1,641.20 BTC",
+    currency: "Prism",
+    image: "/images/logo.svg",
+    amount: "1,641.20 PRISM",
     address: "3DkQyAdif6kQLPMBu",
     transaction: "3DkQyAdif6kQLPMBu",
-    date: "2021-06-05 04:12:30",
+    date: "2024-07-05 04:12:30",
     url: "/buy-crypto",
   },
 ];
@@ -132,7 +126,6 @@ const Activity = () => {
           </div>
           <Table className={styles.table} items={table} />
         </div>
-        <Actions className={styles.actions} />
       </div>
     </div>
   );

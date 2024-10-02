@@ -11,11 +11,11 @@ const Main = ({ scrollToRef }) => {
       <div className={cn("container", styles.container)}>
         <div className={styles.wrap}>
           <h1 className={cn("h1", styles.title)}>
-            Buy & sell <br></br>crypto in minutes
+            Your Transactions,<br></br>Your Truth
           </h1>
           <div className={styles.text}>
-            Trade Bitcoin, Ethereum, USDT, and the top altcoins on the legendary
-            crypto asset exchange.
+            Track transactions in real-time and compare rates with ease,
+            ensuring complete transparency.
           </div>
           <Link className={cn("button", styles.button)} to="/sign-up">
             Get started now

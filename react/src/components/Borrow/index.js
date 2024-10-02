@@ -5,7 +5,7 @@ import Icon from "../Icon";
 import TextInput from "../TextInput";
 import Dropdown from "../Dropdown";
 
-const coinOptions = ["ETH Ethereum", "BTC Bitcoin", "TRX Tron"];
+const coinOptions = ["ETH Ethereum", "PRISM Prism", "TRX Tron"];
 
 const items = [
   {

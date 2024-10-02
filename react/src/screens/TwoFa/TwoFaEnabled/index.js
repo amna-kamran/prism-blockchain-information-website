@@ -22,7 +22,7 @@ const TwoFaEnabled = ({ goDisabled }) => {
       </div>
       <div className={styles.email}>
         <Icon name="email" size="24" />
-        schinner@ui8.net
+        amna@prism.net
       </div>
       <div className={styles.row}>
         <TextInput

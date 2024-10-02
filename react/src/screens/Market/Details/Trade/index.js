@@ -7,8 +7,8 @@ import { AreaChart, Area, ResponsiveContainer } from "recharts";
 
 const items = [
   {
-    title: "Bitcoin",
-    currency: "BTC",
+    title: "Prism",
+    currency: "PRISM",
     price: "$36,201.34",
     positiveDay: "+6.04%",
     negativeWeek: "-1.71%",

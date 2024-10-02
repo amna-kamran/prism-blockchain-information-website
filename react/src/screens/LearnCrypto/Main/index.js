@@ -8,6 +8,11 @@ const Main = ({ scrollToRef, scrollToRefCatalog }) => {
     <div className={cn("section", styles.main)}>
       <div className={cn("container", styles.container)}>
         <div className={styles.head}>
+          <img
+            className={styles.picMobile}
+            src="/images/logo.svg"
+            alt="prism"
+          />
           <h1 className={cn("h1", styles.title)}>Blockchain & Crypto</h1>
           <div className={styles.info}>A Beginner’s Guide to TradingView</div>
           <div className={styles.btns}>

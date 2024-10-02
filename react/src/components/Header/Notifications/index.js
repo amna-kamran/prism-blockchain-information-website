@@ -8,32 +8,32 @@ import Icon from "../../Icon";
 const items = [
   {
     title: "Login attempted from new IP",
-    date: "2021-03-10 20:19:15",
+    date: "2024-03-10 20:19:15",
     url: "/notifications",
   },
   {
     title: "Request to reset security",
-    date: "2021-03-10 20:19:15",
+    date: "2024-03-10 20:19:15",
     url: "/notifications",
   },
   {
     title: "Login attempted from new IP",
-    date: "2021-03-10 20:19:15",
+    date: "2024-03-10 20:19:15",
     url: "/notifications",
   },
   {
     title: "Request to reset security",
-    date: "2021-03-10 20:19:15",
+    date: "2024-03-10 20:19:15",
     url: "/notifications",
   },
   {
     title: "Login attempted from new IP",
-    date: "2021-03-10 20:19:15",
+    date: "2024-03-10 20:19:15",
     url: "/notifications",
   },
   {
     title: "Request to reset security",
-    date: "2021-03-10 20:19:15",
+    date: "2024-03-10 20:19:15",
     url: "/notifications",
   },
 ];

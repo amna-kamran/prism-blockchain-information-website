@@ -30,7 +30,7 @@ const Successfully = () => {
           </span>
         </div>
         <div className={styles.info}>
-          You successfully a withdrawal <span>100.00 USDT</span> from Bitcloud
+          You successfully a withdrawal <span>100.00 USDT</span> from Prism
         </div>
         <div className={styles.list}>
           {items.map((x, index) => (

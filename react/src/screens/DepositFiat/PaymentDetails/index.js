@@ -19,7 +19,7 @@ const items = [
   },
   {
     title: "SWIFT Code",
-    content: "UI8",
+    content: "PRISM",
   },
   {
     title: "Bank Address",

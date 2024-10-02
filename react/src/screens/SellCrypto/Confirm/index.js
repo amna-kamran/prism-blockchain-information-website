@@ -8,7 +8,7 @@ import Successfully from "./Successfully";
 const options = [
   {
     title: "Sell",
-    content: "1.356 BTC",
+    content: "1.356 PRISM",
     color: "#9757D7",
     icon: "wallet",
   },
@@ -20,7 +20,7 @@ const options = [
   },
   {
     title: "For",
-    content: "Bitcloud",
+    content: "Prism",
     color: "#141416",
     icon: "cloud",
   },
@@ -29,11 +29,11 @@ const options = [
 const parameters = [
   {
     title: "1.356",
-    content: "BTC",
+    content: "PRISM",
   },
   {
     title: "Service fee",
-    content: "0.000 BTC",
+    content: "0.000 PRISM",
   },
   {
     title: "You will get",
@@ -71,7 +71,7 @@ const Confirm = ({ goFinish, goBack }) => {
           ))}
         </div>
         <div className={styles.info}>
-          You are about to sell 1.356 BTC for Bitcloud bank.
+          You are about to sell 1.356 PRISM for Prism bank.
         </div>
         <div className={styles.table}>
           {parameters.map((x, index) => (

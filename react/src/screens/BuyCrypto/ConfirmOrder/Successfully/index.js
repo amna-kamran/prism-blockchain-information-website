@@ -26,7 +26,7 @@ const Successfully = () => {
           </span>
         </div>
         <div className={styles.info}>
-          You successfully purchased <span>0.020202 BTC</span> from Bitcloud
+          You successfully purchased <span>0.020202 PRISM</span> from Prism
         </div>
         <div className={styles.list}>
           {items.map((x, index) => (

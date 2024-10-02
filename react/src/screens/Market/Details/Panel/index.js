@@ -16,7 +16,7 @@ const navigation = [
 
 const currency = [
   {
-    title: "BTC/USDT",
+    title: "PRISM/USDT",
     price: "36,641.20",
     currency: "36,641.20",
     positive: "+0.79%",

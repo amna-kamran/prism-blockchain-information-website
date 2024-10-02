@@ -7,7 +7,7 @@ import TextInput from "../../../components/TextInput";
 import TextArea from "../../../components/TextArea";
 
 const optionsCurrency = [
-  "Have a question about Bitcloud fees",
+  "Have a question about Prism fees",
   "Have a question about Ethereum fees",
   "Have a question about Dogcoin fees",
 ];

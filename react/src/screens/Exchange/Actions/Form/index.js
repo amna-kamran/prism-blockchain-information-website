@@ -32,13 +32,13 @@ const Form = ({
                 </button>
               </div>
               <Action
-                title="Buy BTC"
+                title="Buy PRISM"
                 content={contentBuy}
                 price={price}
                 stop={stop}
                 limit={limit}
                 classButton="button-green"
-                buttonText="Buy BTC"
+                buttonText="Buy PRISM"
               />
             </>
           ) : (
@@ -53,13 +53,13 @@ const Form = ({
                 </button>
               </div>
               <Action
-                title="Sell BTC"
+                title="Sell PRISM"
                 content={contentSell}
                 price={price}
                 stop={stop}
                 limit={limit}
                 classButton="button-red"
-                buttonText="Sell BTC"
+                buttonText="Sell PRISM"
               />
             </>
           )}
@@ -68,24 +68,24 @@ const Form = ({
         <div className={styles.row}>
           <div className={styles.col}>
             <Action
-              title="Buy BTC"
+              title="Buy PRISM"
               content={contentBuy}
               price={price}
               stop={stop}
               limit={limit}
               classButton="button-green"
-              buttonText="Buy BTC"
+              buttonText="Buy PRISM"
             />
           </div>
           <div className={styles.col}>
             <Action
-              title="Sell BTC"
+              title="Sell PRISM"
               content={contentSell}
               price={price}
               stop={stop}
               limit={limit}
               classButton="button-red"
-              buttonText="Sell BTC"
+              buttonText="Sell PRISM"
             />
           </div>
         </div>

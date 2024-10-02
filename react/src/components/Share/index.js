@@ -5,9 +5,6 @@ import Icon from "../Icon";
 import { FacebookShareButton, TwitterShareButton } from "react-share";
 import OutsideClickHandler from "react-outside-click-handler";
 
-const shareUrlFacebook = "https://ui8.net";
-const shareUrlTwitter = "https://ui8.net";
-
 const Share = ({ className, openUp, darkButton }) => {
   const [visible, setVisible] = useState(false);
   return (
@@ -33,12 +30,12 @@ const Share = ({ className, openUp, darkButton }) => {
         <div className={cn(styles.body, { [styles.show]: visible })}>
           <div className={styles.title}>Share link to this page</div>
           <div className={styles.list}>
-            <TwitterShareButton className={styles.link} url={shareUrlTwitter}>
+            <TwitterShareButton className={styles.link}>
               <span>
                 <Icon name="twitter" size="20" />
               </span>
             </TwitterShareButton>
-            <FacebookShareButton className={styles.link} url={shareUrlFacebook}>
+            <FacebookShareButton className={styles.link}>
               <span>
                 <Icon name="facebook" size="20" />
               </span>

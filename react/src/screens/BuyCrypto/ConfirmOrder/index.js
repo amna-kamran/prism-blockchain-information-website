@@ -14,7 +14,7 @@ const options = [
   },
   {
     title: "Get",
-    content: "0.001499 BTC",
+    content: "0.001499 PRISM",
     color: "#58BD7D",
     icon: "wallet",
   },
@@ -29,11 +29,11 @@ const options = [
 const parameters = [
   {
     title: "0.001499",
-    content: "BTC",
+    content: "PRISM",
   },
   {
     title: "Service fee",
-    content: "0.000 BTC",
+    content: "0.000 PRISM",
   },
   {
     title: "You will pay",
@@ -71,7 +71,7 @@ const ConfirmOrder = ({ goBack, goStart }) => {
           ))}
         </div>
         <div className={styles.info}>
-          You are about to buy 0.001499 BTC from Bitcloud
+          You are about to buy 0.001499 PRISM from Prism
         </div>
         <div className={styles.table}>
           {parameters.map((x, index) => (

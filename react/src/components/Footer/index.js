@@ -33,27 +33,27 @@ const socials = [
   {
     title: "facebook",
     size: "16",
-    url: "https://www.facebook.com/ui8.net/",
+    url: "",
   },
   {
     title: "twitter",
     size: "18",
-    url: "https://twitter.com/ui8",
+    url: "",
   },
   {
     title: "instagram",
     size: "16",
-    url: "https://www.instagram.com/ui8net/",
+    url: "",
   },
   {
     title: "dribbble",
     size: "16",
-    url: "https://dribbble.com/ui8",
+    url: "",
   },
   {
     title: "behance",
     size: "20",
-    url: "https://www.behance.net/ui8",
+    url: "",
   },
 ];
 
@@ -74,13 +74,13 @@ const Footer = () => {
               <img
                 className={styles.picDesktop}
                 src="images/logo.svg"
-                alt="BitCloud"
+                alt="Prism"
               />
               <Image
                 className={styles.picMobile}
-                src="/images/logo-light.svg"
-                srcDark="/images/logo-dark.svg"
-                alt="BitCloud"
+                src="/images/prism-logo.svg"
+                srcDark="/images/prism-logo-dark.svg"
+                alt="Prism"
               />
             </Link>
             <div className={cn(styles.item, { [styles.active]: visible })}>
@@ -136,9 +136,9 @@ const Footer = () => {
       <div className={styles.foot}>
         <div className={cn("container", styles.container)}>
           <div className={styles.copyright}>
-            Copyright © 2021 UI8 LLC. All rights reserved
+            Copyright © 2024 PRISM LLC. All rights reserved
           </div>
-          <div className={styles.socials}>
+          {/* <div className={styles.socials}>
             {socials.map((x, index) => (
               <a
                 className={styles.social}
@@ -150,7 +150,7 @@ const Footer = () => {
                 <Icon name={x.title} size={x.size} />
               </a>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

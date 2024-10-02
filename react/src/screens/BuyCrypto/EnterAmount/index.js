@@ -36,7 +36,7 @@ const EnterAmount = ({ goNext, goBack }) => {
         </div>
       </div>
       <div className={styles.price}>
-        {parseInt(price)} <span>BTC</span>
+        {parseInt(price)} <span>PRISM</span>
       </div>
       <div className={styles.variants}>
         {priceVariants.map((x, index) => (

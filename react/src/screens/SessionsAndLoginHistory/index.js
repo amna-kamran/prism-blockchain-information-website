@@ -16,14 +16,14 @@ const breadcrumbs = [
 
 const sessions = [
   {
-    date: "2021-06-16",
+    date: "2024-06-16",
     time: "10:46:09",
     device: "Macbook Pro",
     system: "Mac OS Bigsur",
     location: "🇺🇸 USA",
   },
   {
-    date: "2021-06-16",
+    date: "2024-06-16",
     time: "10:46:09",
     device: "iMac Pro",
     system: "Mac OS Bigsur",
@@ -33,19 +33,19 @@ const sessions = [
 
 const history = [
   {
-    date: "2021-06-16",
+    date: "2024-06-16",
     time: "10:46:09",
     address: "1.53.208.186",
     status: true,
   },
   {
-    date: "2021-06-16",
+    date: "2024-06-16",
     time: "10:46:09",
     address: "1.53.208.186",
     status: false,
   },
   {
-    date: "2021-06-16",
+    date: "2024-06-16",
     time: "10:46:09",
     address: "1.53.208.186",
     status: true,

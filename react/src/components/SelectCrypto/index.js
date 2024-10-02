@@ -5,11 +5,11 @@ import Icon from "../Icon";
 
 const items = [
   {
-    title: "Bitcoin",
-    currency: "BTC",
+    title: "Prism",
+    currency: "PRISM",
     price: "$36,201.34",
     positiveDay: "+6.04%",
-    image: "/images/content/currency/bitcoin.svg",
+    image: "/logo.svg",
   },
   {
     title: "Ethereum",

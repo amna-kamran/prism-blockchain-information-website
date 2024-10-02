@@ -5,7 +5,7 @@ import styles from "./Cards.module.sass";
 
 const items = [
   {
-    title: "BTC/USDT",
+    title: "PRISM/USDT",
     price: "36,641.20",
     money: "36,641.20",
     negative: "-0.79%",
@@ -13,7 +13,7 @@ const items = [
     url: "/exchange",
   },
   {
-    title: "BTC/USDT",
+    title: "PRISM/USDT",
     price: "36,641.20",
     money: "36,641.20",
     positive: "+0.79%",
@@ -21,7 +21,7 @@ const items = [
     url: "/exchange",
   },
   {
-    title: "BTC/USDT",
+    title: "PRISM/USDT",
     price: "36,641.20",
     money: "36,641.20",
     positive: "+0.79%",
@@ -29,7 +29,7 @@ const items = [
     url: "/exchange",
   },
   {
-    title: "BTC/USDT",
+    title: "PRISM/USDT",
     price: "36,641.20",
     money: "36,641.20",
     positive: "+0.79%",

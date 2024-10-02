@@ -19,7 +19,7 @@ const items = [
   {
     title: "Leveraged tokens now available",
     content: "Good things come in 3s. Get 3x Leveraged tokens now.",
-    date: "Jun 1, 2021",
+    date: "Jun 1, 2024",
     image: "/images/content/learn-pic-2.jpg",
     image2x: "/images/content/learn-pic-2@2x.jpg",
     url: "/learn-crypto-details",
@@ -27,7 +27,7 @@ const items = [
   {
     title: "Leveraged tokens now available",
     content: "Good things come in 3s. Get 3x Leveraged tokens now.",
-    date: "Jun 1, 2021",
+    date: "Jun 1, 2024",
     play: true,
     image: "/images/content/learn-pic-4.jpg",
     image2x: "/images/content/learn-pic-4@2x.jpg",
@@ -36,7 +36,7 @@ const items = [
   {
     title: "Leveraged tokens now available",
     content: "Good things come in 3s. Get 3x Leveraged tokens now.",
-    date: "Jun 1, 2021",
+    date: "Jun 1, 2024",
     image: "/images/content/learn-pic-3.jpg",
     image2x: "/images/content/learn-pic-3@2x.jpg",
     url: "/learn-crypto-details",
