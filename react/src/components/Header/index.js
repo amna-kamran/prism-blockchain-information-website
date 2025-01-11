@@ -24,6 +24,10 @@ const navigation = [
     title: "Discover",
     url: "/learn-crypto",
   },
+  {
+    title: "Transactions",
+    url: "/activity",
+  },
 ];
 
 const Header = ({ headerWide }) => {
@@ -93,21 +97,8 @@ const Header = ({ headerWide }) => {
           </div>
           <Settings className={styles.settings} />
           <div className={styles.control}>
-            <NavLink
-              className={styles.activity}
-              activeClassName={styles.active}
-              to="/activity"
-            >
-              <Icon name="lightning" size="24" />
-            </NavLink>
             <Notifications className={styles.notifications} />
-            <NavLink
-              className={cn("button-stroke button-small", styles.button)}
-              activeClassName={styles.active}
-              to="/wallet-overview"
-            >
-              Wallet
-            </NavLink>
+
             <Theme className={styles.theme} icon />
             <User className={styles.user} />
           </div>

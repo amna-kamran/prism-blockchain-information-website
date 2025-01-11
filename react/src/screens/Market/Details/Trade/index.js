@@ -189,13 +189,10 @@ const Trade = () => {
             <div className="sorting">Name</div>
           </div>
           <div className={styles.col}>
-            <div className="sorting">Price</div>
+            <div className="sorting">Last Trade</div>
           </div>
-          <div className={styles.col}>24h %</div>
-          <div className={styles.col}>7d %</div>
-          <div className={styles.col}>
-            Marketcap <Icon name="coin" size="20" />
-          </div>
+          <div className={styles.col}>24H %</div>
+
           <div className={styles.col}>
             Volume (24h) <Icon name="chart" size="20" />
           </div>
@@ -235,19 +232,7 @@ const Trade = () => {
                 <div className={styles.negative}>{x.negativeDay}</div>
               )}
             </div>
-            <div className={styles.col}>
-              <div className={styles.label}>7d</div>
-              {x.positiveWeek && (
-                <div className={styles.positive}>{x.positiveWeek}</div>
-              )}
-              {x.negativeWeek && (
-                <div className={styles.negative}>{x.negativeWeek}</div>
-              )}
-            </div>
-            <div className={styles.col}>
-              <div className={styles.label}>Marketcap</div>
-              {x.marketcap}
-            </div>
+
             <div className={styles.col}>
               <div className={styles.label}>Volume (24h)</div>
               {x.volume}

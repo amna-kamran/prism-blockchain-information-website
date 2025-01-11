@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import cn from "classnames";
 import styles from "./Charts.module.sass";
 import Dropdown from "../../../components/Dropdown";
-import TradingViewWidget, { Themes } from "react-tradingview-widget";
 import useDarkMode from "use-dark-mode";
 import { AreaChart, Area, XAxis, YAxis, ResponsiveContainer } from "recharts";
 
@@ -104,16 +103,7 @@ const Actions = () => {
       </div>
       {activeIndexNav === 0 && (
         <div className={styles.inner}>
-          <div className={styles.iframe}>
-            <TradingViewWidget
-              symbol="NASDAQ:AAPL"
-              theme={darkMode.value ? Themes.DARK : Themes.LIGHT}
-              locale="en"
-              hide_top_toolbar={true}
-              studies={["Volume@tv-basicstudies"]}
-              autosize
-            />
-          </div>
+          <div className={styles.iframe}></div>
         </div>
       )}
       {activeIndexNav === 1 && (
